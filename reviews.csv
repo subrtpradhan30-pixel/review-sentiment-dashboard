@@ -1,0 +1,151 @@
+id,reviewer_name,review_text,rating,date_posted
+1,Meera,"It's okay, does the job but nothing special.",3,2024-11-08
+2,Kavya,"Regret buying this, it did not meet my expectations.",2,2024-01-31
+3,Neha,"Fair for the price, meets basic requirements.",3,2024-09-16
+4,Kavya,"Very flimsy build, broke on the first use.",2,2024-09-15
+5,Meera,"It works as expected, nothing more to say.",3,2025-01-27
+6,Meera,Customer service was helpful and the product is amazing.,4,2024-03-12
+7,Rohit,"Terrible experience, would not recommend to anyone.",2,2024-01-20
+8,Preeti,"Not bad, not great, just an average experience.",3,2024-08-26
+9,Sneha,"This exceeded my expectations, very happy with the purchase.",4,2024-02-04
+10,Simran,"Poor quality, not worth the money at all.",2,2024-09-14
+11,Vikram,Stopped working after just two days of use.,1,2024-09-16
+12,Deepak,An average product that does the minimum required.,3,2024-04-08
+13,Nisha,"Great quality for the price, would definitely buy again.",4,2024-09-20
+14,Amit,"Completely useless, returning it immediately.",2,2024-12-05
+15,Ajay,"Sturdy, well designed, and worth every rupee spent.",4,2024-12-01
+16,Vikram,"Middling experience, some parts good, some not.",3,2024-07-31
+17,Vinay,Instructions were confusing and the product failed to work.,1,2025-01-02
+18,Sneha,Stopped working after just two days of use.,1,2024-02-17
+19,Nisha,"This exceeded my expectations, very happy with the purchase.",4,2024-10-28
+20,Vivek,An average product that does the minimum required.,3,2024-07-23
+21,Radha,"This exceeded my expectations, very happy with the purchase.",5,2024-11-17
+22,Ritu,"Battery life is horrible, dies within an hour.",1,2024-01-02
+23,Ritu,"Best purchase I've made this year, super satisfied.",4,2024-11-07
+24,Komal,"Arrived late and missing parts, very frustrating.",1,2024-04-07
+25,Pooja,"Battery life is horrible, dies within an hour.",2,2024-08-24
+26,Nikhil,Item arrived damaged and customer service was unhelpful.,2,2024-05-13
+27,Isha,Decent quality but shipping took longer than expected.,3,2024-01-26
+28,Swati,The product stopped charging after a week.,2,2024-03-21
+29,Sneha,"Arrived late and missing parts, very frustrating.",2,2024-01-30
+30,Deepak,An average product that does the minimum required.,3,2024-05-19
+31,Suresh,The product stopped charging after a week.,2,2024-09-05
+32,Simran,The product stopped charging after a week.,1,2024-11-13
+33,Yash,Customer service was helpful and the product is amazing.,4,2024-09-16
+34,Priyanka,"Product is okay, packaging could be improved.",3,2024-10-07
+35,Nikhil,"Great gift idea, my friend loved it and so did I.",4,2024-02-18
+36,Sanjay,"Regret buying this, it did not meet my expectations.",1,2024-02-17
+37,Bhavna,Easy to set up and works exactly as expected. Love it.,4,2024-12-10
+38,Suresh,"Delivery was fast and packaging was excellent, product works great.",5,2024-06-30
+39,Meera,"Middling experience, some parts good, some not.",3,2024-04-25
+40,Tarun,"This is exactly what I needed, works flawlessly.",4,2024-07-12
+41,Vinay,"Perfect fit and great material quality, very happy.",5,2024-04-18
+42,Bhavna,Packaging was awful and the item was scratched on arrival.,2,2024-08-04
+43,Karan,"Fantastic value, does everything it promises and more.",5,2024-02-16
+44,Komal,Super comfortable and looks even better in person.,4,2024-02-27
+45,Karan,"Reliable and efficient, glad I chose this brand.",5,2024-05-04
+46,Nisha,"It's fine, though I expected slightly better quality.",3,2024-07-31
+47,Shreya,"Refund process was a nightmare, avoid this seller.",1,2024-04-24
+48,Vivek,"Terrible experience, would not recommend to anyone.",1,2024-07-18
+49,Karan,Customer service was helpful and the product is amazing.,4,2025-01-16
+50,Neha,Very satisfied with the performance and price point.,4,2025-01-14
+51,Karan,"Very flimsy build, broke on the first use.",2,2024-03-23
+52,Amit,"Middling experience, some parts good, some not.",3,2024-05-26
+53,Karan,Packaging was awful and the item was scratched on arrival.,2,2024-02-05
+54,Arjun,"Best purchase I've made this year, super satisfied.",4,2024-10-14
+55,Ritu,"Very durable, been using it for months with no problems.",4,2024-04-18
+56,Shreya,"Fair for the price, meets basic requirements.",3,2024-08-02
+57,Ramesh,Stopped working after just two days of use.,2,2024-11-13
+58,Gaurav,"It works, though setup instructions could be clearer.",3,2025-01-02
+59,Arjun,"Great quality for the price, would definitely buy again.",4,2024-06-10
+60,Radha,"Cheaply made, definitely not worth the price tag.",2,2024-10-14
+61,Vikram,The product stopped charging after a week.,2,2024-10-08
+62,Suresh,Easy to set up and works exactly as expected. Love it.,5,2024-01-02
+63,Manoj,"Very disappointed, the product broke within a week.",2,2024-06-17
+64,Anjali,I use this daily and it has never let me down.,4,2024-02-21
+65,Shreya,Excellent build quality and fast shipping. Highly recommend.,4,2024-03-19
+66,Pooja,Item arrived damaged and customer service was unhelpful.,1,2024-10-31
+67,Tarun,"Not as described, the material feels cheap.",1,2024-07-08
+68,Vivek,"This exceeded my expectations, very happy with the purchase.",4,2024-07-02
+69,Neha,"Very disappointed, the product broke within a week.",1,2024-12-19
+70,Arjun,"Reliable and efficient, glad I chose this brand.",4,2024-01-04
+71,Nikhil,"It works as expected, nothing more to say.",3,2024-07-25
+72,Meera,Item arrived damaged and customer service was unhelpful.,2,2024-03-02
+73,Ramesh,"Battery life is horrible, dies within an hour.",2,2024-08-11
+74,Swati,"Amazing product, exactly like the pictures showed.",4,2024-12-26
+75,Suresh,"Delivery was fast and packaging was excellent, product works great.",4,2024-11-02
+76,Vivek,"This is exactly what I needed, works flawlessly.",5,2024-11-23
+77,Vivek,"Reasonable purchase, no complaints but no praise either.",3,2024-01-04
+78,Karan,Extremely slow shipping and the item was the wrong size.,2,2024-08-22
+79,Ajay,"Waste of money, does not perform as advertised.",1,2024-05-15
+80,Divya,"Not bad, not great, just an average experience.",3,2025-01-19
+81,Swati,"Top notch quality, will recommend to my friends and family.",5,2024-09-21
+82,Arjun,Decent quality but shipping took longer than expected.,3,2024-12-21
+83,Rohit,Super comfortable and looks even better in person.,4,2024-04-08
+84,Rajesh,"Product is okay, packaging could be improved.",3,2024-09-18
+85,Suresh,"Completely useless, returning it immediately.",1,2024-09-17
+86,Rahul,"This exceeded my expectations, very happy with the purchase.",4,2025-01-30
+87,Karan,Stopped working after just two days of use.,2,2024-02-29
+88,Sanjay,Stopped working after just two days of use.,1,2024-10-24
+89,Ritu,"Very durable, been using it for months with no problems.",5,2024-11-21
+90,Neha,"Great quality for the price, would definitely buy again.",4,2024-11-17
+91,Suresh,Very satisfied with the performance and price point.,4,2024-03-24
+92,Vikram,"Very flimsy build, broke on the first use.",1,2024-08-22
+93,Asha,"Completely useless, returning it immediately.",2,2024-01-15
+94,Asha,"Great gift idea, my friend loved it and so did I.",5,2024-03-14
+95,Preeti,Really impressed with how well this performs every day.,4,2024-07-16
+96,Rahul,Easy to set up and works exactly as expected. Love it.,4,2024-02-17
+97,Vikram,"It's fine, though I expected slightly better quality.",3,2024-11-15
+98,Tarun,"Best purchase I've made this year, super satisfied.",5,2024-04-22
+99,Nikhil,"Very flimsy build, broke on the first use.",1,2024-05-16
+100,Ritu,"Not bad, not great, just an average experience.",3,2024-02-09
+101,Kavya,"Works perfectly, no issues at all. Five stars from me.",5,2024-02-22
+102,Tarun,"Cheaply made, definitely not worth the price tag.",2,2024-11-09
+103,Preeti,"Sturdy, well designed, and worth every rupee spent.",5,2024-07-04
+104,Harish,"Top notch quality, will recommend to my friends and family.",4,2024-05-15
+105,Manoj,"Okay for the price, wouldn't call it exceptional.",3,2024-01-13
+106,Kavya,Decent quality but shipping took longer than expected.,3,2024-07-31
+107,Divya,"Arrived late and missing parts, very frustrating.",2,2024-03-06
+108,Tarun,Excellent build quality and fast shipping. Highly recommend.,4,2024-10-29
+109,Tarun,"Waste of money, does not perform as advertised.",2,2024-03-12
+110,Vinay,"Delivery was fast and packaging was excellent, product works great.",5,2024-01-23
+111,Amit,"Battery life is horrible, dies within an hour.",1,2024-07-05
+112,Bhavna,Decent quality but shipping took longer than expected.,3,2025-01-21
+113,Ritu,"Fantastic value, does everything it promises and more.",5,2024-04-19
+114,Vikram,Packaging was awful and the item was scratched on arrival.,2,2024-06-28
+115,Shreya,"Poor quality, not worth the money at all.",2,2024-01-21
+116,Nisha,Very satisfied with the performance and price point.,4,2024-05-30
+117,Ajay,"Fair for the price, meets basic requirements.",3,2024-03-11
+118,Sanjay,"Waste of money, does not perform as advertised.",1,2024-12-28
+119,Kavya,"Refund process was a nightmare, avoid this seller.",1,2024-12-07
+120,Vikram,"Great gift idea, my friend loved it and so did I.",4,2024-03-06
+121,Suresh,"Product is okay, packaging could be improved.",3,2024-05-25
+122,Rohit,Very satisfied with the performance and price point.,4,2024-07-25
+123,Tarun,"Reliable and efficient, glad I chose this brand.",5,2025-01-17
+124,Shreya,"Delivery was fast and packaging was excellent, product works great.",4,2024-01-30
+125,Neha,"This is exactly what I needed, works flawlessly.",4,2024-04-25
+126,Radha,Customer service was helpful and the product is amazing.,4,2024-12-14
+127,Rohit,"Middling experience, some parts good, some not.",3,2024-04-22
+128,Manoj,"Reliable and efficient, glad I chose this brand.",5,2024-07-23
+129,Vivek,"It's fine, though I expected slightly better quality.",3,2024-11-11
+130,Tarun,Excellent build quality and fast shipping. Highly recommend.,5,2025-01-28
+131,Rahul,Packaging was awful and the item was scratched on arrival.,1,2024-11-01
+132,Arjun,"Reliable and efficient, glad I chose this brand.",5,2025-01-28
+133,Meera,"Does what it says, but the design feels outdated.",3,2024-08-21
+134,Priya,"Battery life is horrible, dies within an hour.",1,2025-01-12
+135,Simran,"This is exactly what I needed, works flawlessly.",5,2024-01-04
+136,Vinay,"Very durable, been using it for months with no problems.",5,2024-09-27
+137,Shreya,"Reasonable purchase, no complaints but no praise either.",3,2024-10-07
+138,Gaurav,"Fantastic value, does everything it promises and more.",4,2024-02-13
+139,Arjun,"Regret buying this, it did not meet my expectations.",1,2024-08-23
+140,Radha,Stopped working after just two days of use.,1,2024-05-19
+141,Meera,"Not as described, the material feels cheap.",1,2024-03-31
+142,Preeti,Really impressed with how well this performs every day.,5,2024-05-22
+143,Kavya,"It's okay, does the job but nothing special.",3,2024-07-18
+144,Neha,"Completely useless, returning it immediately.",2,2024-10-22
+145,Kavya,Instructions were confusing and the product failed to work.,1,2024-10-23
+146,Simran,"Okay for the price, wouldn't call it exceptional.",3,2025-01-26
+147,Priyanka,"Does what it says, but the design feels outdated.",3,2024-02-17
+148,Preeti,Excellent build quality and fast shipping. Highly recommend.,5,2024-08-04
+149,Isha,"Okay for the price, wouldn't call it exceptional.",3,2024-11-16
+150,Suresh,"Product is okay, packaging could be improved.",3,2024-08-18

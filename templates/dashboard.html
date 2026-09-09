@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Review Sentiment Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/style.css')}}"
+    />
+  </head>
+  <body>
+    <h1>Review Sentiment Dashboard</h1>
+
+    <div class="summary">
+      <div class="card">
+        <h2>Positive</h2>
+        <p id="positive-count">{{ positive }}</p>
+        <small>{{ "%.1f"|format(positive_percent) }}%</small>
+      </div>
+
+      <div class="card">
+        <h2>Negative</h2>
+        <p id="negative-count">{{ negative }}</p>
+        <small>{{ "%.1f"|format(negative_percent) }}%</small>
+      </div>
+
+      <div class="card">
+        <h2>Neutral</h2>
+        <p id="neutral-count">{{ neutral }}</p>
+        <small>{{ "%.1f"|format(neutral_percent) }}%</small>
+      </div>
+      <div class="card">
+        <h2>Average Rating</h2>
+        <p>{{ "%.1f"|format(average_rating) }} / 5</p>
+      </div>
+    </div>
+    <div class="charts-row">
+      <div class="chart-container">
+        <canvas id="sentimentChart"></canvas>
+      </div>
+
+      <div class="chart-container">
+        <canvas id="ratingChart"></canvas>
+      </div>
+    </div>
+    <h2 class="section-title">Explore Reviews</h2>
+    <form method="GET" class="filter">
+      <label for="sentiment-filter">Filter:</label>
+
+      <select id="sentiment-filter" name="sentiment">
+        <option value="All">All</option>
+        <option value="Positive">Positive</option>
+        <option value="Negative">Negative</option>
+        <option value="Neutral">Neutral</option>
+      </select>
+
+      <button type="submit">Apply</button>
+    </form>
+
+    {% for review in reviews %}
+    <div class="review-card">
+      <h3>{{ review.reviewer_name }}</h3>
+      <p class="review-text">{{ review.review_text }}</p>
+      <p>Rating: {{ review.rating }} / 5 ⭐</p>
+      <p>Date: {{ review.date_posted }}</p>
+      <p>
+        Sentiment: {% if review.sentiment == "Positive" %}
+        <span class="positive">Positive</span>
+        {% elif review.sentiment == "Negative" %}
+        <span class="negative">Negative</span>
+        {% else %}
+        <span class="neutral">Neutral</span>
+        {% endif %}
+      </p>
+    </div>
+    {% endfor %}
+    <script>
+      const ratingCounts = {{ rating_counts | tojson }};
+    </script>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+  </body>
+</html>
