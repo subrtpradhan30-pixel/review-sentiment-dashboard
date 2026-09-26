@@ -7,6 +7,11 @@ with open("reviews.csv", newline="", encoding="utf-8") as file:
     reader = csv.DictReader(file)
 
     with app.app_context():
+        db.create_all()
+
+        if Review.query.count() > 0:
+            exit()
+
         for row in reader:
             blob = TextBlob(row["review_text"])
             polarity = blob.sentiment.polarity
@@ -22,10 +27,13 @@ with open("reviews.csv", newline="", encoding="utf-8") as file:
                 reviewer_name=row["reviewer_name"],
                 review_text=row["review_text"],
                 rating=int(row["rating"]),
-                date_posted=datetime.strptime(row["date_posted"], "%Y-%m-%d").date(),
+                date_posted=datetime.strptime(
+                    row["date_posted"], "%Y-%m-%d"
+                ).date(),
                 sentiment=sentiment
             )
-            db.session.add(review)
 
-        db.session.commit()
+        db.session.add(review)
+
+    db.session.commit()
         
