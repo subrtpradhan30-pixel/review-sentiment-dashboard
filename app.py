@@ -85,40 +85,11 @@ def home():
         negative_percent=negative_percent,
         neutral_percent=neutral_percent,
     )
-def seed_database():
-    if Review.query.count() == 0:
-        with open("reviews.csv", newline="", encoding="utf-8") as file:
-            reader = csv.DictReader(file)
 
-            for row in reader:
-                analysis = TextBlob(row["review_text"])
-                polarity = analysis.sentiment.polarity
-
-                if polarity > 0:
-                    sentiment = "Positive"
-                elif polarity < 0:
-                    sentiment = "Negative"
-                else:
-                    sentiment = "Neutral"
-
-                review = Review(
-                    reviewer_name=row["reviewer_name"],
-                    review_text=row["review_text"],
-                    rating=int(row["rating"]),
-                    date_posted=datetime.strptime(
-                        row["date_posted"], "%Y-%m-%d"
-                    ).date(),
-                    sentiment=sentiment
-                )
-
-                db.session.add(review)
-
-            db.session.commit()
 
 
 with app.app_context():
     db.create_all()
-    seed_database()
 
 if __name__ == "__main__":
     app.run(debug=True)
