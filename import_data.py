@@ -3,14 +3,14 @@ from app import app, db, Review
 from datetime import datetime
 from textblob import TextBlob
 
-with open("reviews.csv", newline="", encoding="utf-8") as file:
-    reader = csv.DictReader(file)
+with app.app_context():
+    db.create_all()
 
-    with app.app_context():
-        db.create_all()
+    if Review.query.count() > 0:
+        exit()
 
-        if Review.query.count() > 0:
-            exit()
+    with open("reviews.csv", newline="", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
 
         for row in reader:
             blob = TextBlob(row["review_text"])
@@ -33,7 +33,6 @@ with open("reviews.csv", newline="", encoding="utf-8") as file:
                 sentiment=sentiment
             )
 
-        db.session.add(review)
+            db.session.add(review)
 
-    db.session.commit()
-        
+        db.session.commit()
